@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    padding-bottom: 1000em;
+}
+
+p{
+    opacity: 0.8;
+    margin: 2em 0;
+}
+
+a{
+    border: 2px solid rgba(0, 0, 0, 1);
+    padding: 0.6em 3.5em;
+    margin: auto;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 0.9em;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 3em;
+}
+
+.banner{
+    width: 100%;
+    background: yellow;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background-image: url("imagenes/ANUNCIO.jpg");
+}
